@@ -43,9 +43,14 @@ public class PalindromeNumber_9 {
     }
 
     public static void main(String[] args) {
-        int x = 1211;
+
         PalindromeNumber_9 obj = new PalindromeNumber_9();
-        System.out.println(obj.isPalindrome(x));
+        int x1 = 1211;
+        System.out.println(obj.isPalindrome(x1));
+        int x2 = 121121;
+        System.out.println(obj.isPalindrome(x2));
+
+
     }
 }
 
