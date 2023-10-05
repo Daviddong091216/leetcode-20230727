@@ -30,6 +30,8 @@ public class ValidParentheses_20 {
         System.out.println(obj.isValid(s2));
         String s3 = "([]{}";
         System.out.println(obj.isValid(s3));
+        String s4 = "(}";
+        System.out.println(obj.isValid(s3));
 
     }
 }
