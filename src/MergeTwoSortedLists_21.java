@@ -1,10 +1,9 @@
 
 
 
-
 public class MergeTwoSortedLists_21 {
 
-    public class ListNode {
+    public static class ListNode {
         int val;
         ListNode next;
 
@@ -49,7 +48,16 @@ public class MergeTwoSortedLists_21 {
         return head.next;
     }
 
+    public static void main(String[] args) {
+        MergeTwoSortedLists_21 obj = new MergeTwoSortedLists_21();
+        ListNode list1 = [];
+        ListNode list2 = [1];
 
+
+        System.out.println(obj.mergeTwoLists(list1, list2));
+
+
+    }
 
 
 }
