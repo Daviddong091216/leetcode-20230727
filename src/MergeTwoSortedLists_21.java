@@ -50,11 +50,11 @@ public class MergeTwoSortedLists_21 {
 
     public static void main(String[] args) {
         MergeTwoSortedLists_21 obj = new MergeTwoSortedLists_21();
-        ListNode list1 = [];
-        ListNode list2 = [1];
+        // ListNode list1 = [];
+        //ListNode list2 = [1];
 
 
-        System.out.println(obj.mergeTwoLists(list1, list2));
+        //System.out.println(obj.mergeTwoLists(list1, list2));
 
 
     }
